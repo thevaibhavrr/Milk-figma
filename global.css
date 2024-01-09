@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-frank-ruhl-libre: "Frank Ruhl Libre";
+    --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+    --font-roboto: Roboto;
+    --font-font-awesome-5-free: "Font Awesome 5 Free";
+    --font-poppins: Poppins;
+    --font-merriweather-sans: "Merriweather Sans";
+    --font-open-sans: "Open Sans";
+    --font-inter: Inter;
+    --font-montserrat: Montserrat;
+  
+    /* font sizes */
+    --font-size-2xl-3: 21.3px;
+    --font-size-smi: 13px;
+    --font-size-xs: 12px;
+    --font-size-xs-3: 11.3px;
+    --font-size-mini: 15px;
+    --font-size-9xl: 28px;
+    --font-size-21xl: 40px;
+    --font-size-lg-8: 18.8px;
+    --font-size-lgi-7: 19.7px;
+    --font-size-7xl-6: 26.6px;
+    --font-size-11xl: 30px;
+    --font-size-lgi: 19px;
+    --font-size-base-2: 15.2px;
+    --font-size-lg: 18px;
+    --font-size-5xl: 24px;
+    --font-size-15xl: 34px;
+    --font-size-41xl: 60px;
+    --font-size-lg-1: 18.1px;
+    --font-size-xl: 20px;
+    --font-size-13xl: 32px;
+    --font-size-mid-5: 17.5px;
+    --font-size-3xs-8: 9.8px;
+    --font-size-mini-7: 14.7px;
+    --font-size-31xl: 50px;
+    --font-size-4xs: 9px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray-100: #202020;
+    --color-gray-200: #1e1e23;
+    --color-gray-300: #181818;
+    --color-olivedrab: #5d9913;
+    --color-darkgray-100: #a5a5a5;
+    --color-black: #000;
+    --color-darkslategray-100: #353535;
+    --color-darkslategray-200: #343434;
+    --color-ghostwhite: #f1f3f8;
+    --color-darkslateblue-100: #49438e;
+    --color-darkslateblue-200: #3a3572;
+    --color-darkslateblue-300: #013174;
+    --color-goldenrod: #d9940e;
+    --color-dimgray-100: #505050;
+    --color-gainsboro: #d9d9d9;
+  
+    /* Paddings */
+    --padding-4xs-6: 8.6px;
+    --padding-xs-6: 11.6px;
+    --padding-6xs-6: 6.6px;
+    --padding-base-3: 16.3px;
+  
+    /* Border radiuses */
+    --br-3xs-4: 9.4px;
+    --br-4xl-9: 23.9px;
+    --br-258xl-6: 277.6px;
+    --br-sm-9: 13.9px;
+    --br-5xs-4: 7.4px;
+    --br-lg-5: 18.5px;
+    --br-5xs: 8px;
+    --br-xl: 20px;
+    --br-14xl-8: 33.8px;
+    --br-11xs-5: 1.5px;
+    --br-smi-2: 12.2px;
+  }
+  
