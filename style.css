@@ -45,8 +45,8 @@ body {
 }
 
 .navbar-logo {
-  width: 170px;
-  height: 100px;
+  width: 149px;
+  height: 80px;
 }
 
 .navbar-links {
@@ -219,8 +219,25 @@ body {
     linear-gradient(0deg, #d9940e, #d9940e);
   border: 2px solid #d9940e;
   box-shadow: 8px 8px 0px 0px #d9940e;
+  transition: background-color 1s ease;
+  cursor: pointer;
 }
 
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+button.animated {
+  animation: bounce 1s infinite;
+}
 /* Dairy section styles */
 .Dairy {
   padding: 100px;
@@ -317,6 +334,7 @@ a {
   color: #fff;
   width: 150px;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .about-me-section-second {
@@ -425,12 +443,16 @@ a {
   justify-content: space-evenly;
   align-items: center;
   padding: 50px;
+  
 }
 
 /* Text section styles for Instagram */
 .instagram-text-top-section {
   display: flex;
   justify-content: space-between;
+}
+.instagram-text-top-section p,h6{
+  padding: 10px 1px;
 }
 
 /* Dark button styles */
@@ -509,7 +531,10 @@ a {
   width: 432.112px;
   height: 462.218px;
   border-radius: 24px;
+  animation: spin 2s infinite linear;
 }
+
+
 
 .sub_image {
   width: 218.712px;
@@ -701,3 +726,34 @@ input {
   height: 3px;
   background-color: white;
 }
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+p {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.dairy-text-section button {
+  animation: pulse 1s infinite;
+}
+
