@@ -666,3 +666,38 @@ input {
   display: flex;
   justify-content: center;
 }
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+.footer-column {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+.footer-vertical-list {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-horizontal-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.footer-horizontal-list li {
+  margin-right: 10px;
+}
+
+.vertical-divider {
+  width: 3px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.horizontal-divider {
+  width: 100%;
+  height: 3px;
+  background-color: white;
+}
