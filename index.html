@@ -14,6 +14,9 @@
   </head>
 
   <body>
+
+
+
     <div>
       <!-- header -->
       <div
@@ -23,6 +26,7 @@
         data-aos-delay="200"
         data-aos-offset="200"
         data-aos-easing="ease-in-out"
+        id="home"
       >
         <div>
           <img
@@ -40,7 +44,7 @@
             data-aos-offset="200"
             data-aos-easing="ease-in-out"
           >
-            <a href="#">Home</a>
+            <a href="#"onclick=" navigateto('home')"   >  Home</a>
           </li>
           <li
             data-aos="flip-left"
@@ -49,7 +53,7 @@
             data-aos-offset="200"
             data-aos-easing="ease-in-out"
           >
-            <a href="#">Pages</a>
+            <a href="#" onclick=" navigateto('tranding_section')" >Pages</a>
           </li>
           <li
             data-aos="flip-left"
@@ -58,7 +62,7 @@
             data-aos-offset="200"
             data-aos-easing="ease-in-out"
           >
-            <a href="#">Product</a>
+            <a href="#" onclick=" navigateto('product_section')">Product</a>
           </li>
           <li
             data-aos="flip-left"
@@ -67,7 +71,7 @@
             data-aos-offset="200"
             data-aos-easing="ease-in-out"
           >
-            <a href="#">Service</a>
+            <a href="#" onclick=" navigateto('our_product')" >Service</a>
           </li>
           <li
             data-aos="flip-left"
@@ -76,7 +80,7 @@
             data-aos-offset="200"
             data-aos-easing="ease-in-out"
           >
-            <a href="#">Blog</a>
+            <a href="#" onclick=" navigateto('instagram_section')" >Blog</a>
           </li>
           <li
             data-aos="flip-left"
@@ -205,7 +209,7 @@
 
       <!-- our product range section -->
 
-      <div class="container">
+      <div class="container" id="product_section" >
         <div class="product-section">
           <div class="cards">
             <div
@@ -329,7 +333,7 @@
       <!-- our product range section end -->
 
       <!-- Trending Products -->
-      <div class="Trending">
+      <div class="Trending" id="tranding_section">
         <div
           class="tredingproduct"
           class="img"
@@ -445,7 +449,7 @@
       <!-- Dairy Delights Hub end -->
 
       <!-- instagram moments -->
-      <div class="main-instagram">
+      <div class="main-instagram" id="instagram_section">
         <div class="text_div">
           <div class="product_text">Instagram Moment A: Dairy Dairy</div>
           <div class="product_desc">
@@ -543,6 +547,7 @@
         data-aos-delay="500"
         data-aos-offset="200"
         data-aos-easing="ease-in-out"
+        id="our_product"
       >
         <div class="child">
           <div class="text_div">
@@ -845,6 +850,12 @@
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
       AOS.init();
+    </script>
+    <script>
+       function navigateto(sectionId) {
+        const section = document.getElementById(sectionId)
+        section.scrollIntoView({behavior:"smooth"})
+      }
     </script>
   </body>
 </html>
